@@ -5,7 +5,7 @@ class PetsTable(Base):
     __tablename__ = "pets"
 
     id = Column(BIGINT, primary_key=True)
-    name = Column(String, nullabe=False)
+    name = Column(String, nullable=False)
     type = Column(String, nullable=False)
 
     def __repr__(self):
